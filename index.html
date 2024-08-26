@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Tailwind cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+
+              colors:
+               {
+
+                clifford: '#da373d',
+              },
+              fontFamily: { Manrope: "Manrope" },
+              
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-Manrope">
+  <header class="">
+    <nav class="navbar hero w-11/12 mx-auto">
+      <div class="navbar-start">
+        
+        <a class="btn btn-ghost ">
+          <span class="bg-[#ABEF5F]  p-2 rounded-full text-black"><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+          <span class="text-4xl font-bold">Rinterio</span></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-3 font-semibold text-lg">
+          <li class="font-bold"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end  lg:space-x-2">
+         
+          <span tabindex="0" role="button"  class="btn border hidden lg:flex shadow-sm rounded-full  ">
+              <i class="fa-solid fa-cart-shopping text-lg"></i>
+          </span>
+          <span tabindex="0" role="button"  class="btn border shadow-sm hidden lg:flex rounded-full  ">
+              <i class="fa-solid fa-magnifying-glass  text-lg"></i>
+          </span>
+     
+          <button class="btn  flex-row px-5 hidden lg:flex  bg-[#ABEF5F]  rounded-full hover:bg-[#729e3f] border-none"><span class="font-bold text-lg">Book Consult</span> <span class="bg-black p-3 rounded-full text-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+          </button>
+          <div class="dropdown">
+              <div tabindex="0" role="button"  class="btn border shadow-sm rounded-full  lg:hidden ">
+                  <i class="fa-solid fa-bars text-xl"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content right-0 bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 space-y-4 shadow"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+                
+              </ul>
+            </div>
+      </div>
+    </nav>
+    <div class="hero w-11/12 mx-auto">
+      <div class="hero-content text-center flex-col">
+        <img src="image/banner.png" class="w-fit" alt="" />
+        <div class="lg:w-3/4">
+          <h1 class="lg:text-6xl text-4xl font-bold">
+            A barn house of this design has a striking appearance
+          </h1>
+          <p class="py-6">
+            The barn house captivates with its blend of rustic charm and
+            modern sophistication, featuring weathered wood, sleek metal
+            accents, and large windows that flood the space with natural
+            light. et a id nisi.
+          </p>
+         
+        </div>
+        <button class="btn flex flex-row px-5 rounded-full bg-[#acef5f93] hover:bg-[#729e3f] border-none"><span class="font-bold text-lg">View Details</span> <span class="bg-[#ABEF5F] p-3 rounded-full text-black"><i class="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+      </div>
+    </div>
+  </header>
+    <main>
+
+    </main>
+
+    <footer>
+      
+    </footer>
+</body>
+</html>
